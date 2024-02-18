@@ -1,0 +1,849 @@
+[
+    {
+      "name": "Aeroport",
+      "lanes": [3,5],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Ayora",
+      "lanes": [5,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Alacant",
+      "lanes": [10],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Albalat dels Sorells",
+      "lanes": [3],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Alameda",
+      "lanes": [3,5,7,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Alberic",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Alboraia Palmaret",
+      "lanes": [3,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Alboraia Peris Aragó",
+      "lanes": [3,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "L'Alcúdia",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Alfauir",
+      "lanes": [6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Alginet",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Almàssera",
+      "lanes": [3],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Amado Granell-Montolivet",
+      "lanes": [10],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Amistat",
+      "lanes": [5,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Àngel Guimerà",
+      "lanes": [1,2,3,5,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Aragó",
+      "lanes": [5,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Ausiàs March",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Avinguda del Cid",
+      "lanes": [3,5,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "À Punt",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Bailén",
+      "lanes": [7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Benaguasil",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Fondo de Benaguasil",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Benicalap",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Beniferri",
+      "lanes": [1,2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Benimaclet",
+      "lanes": [3,4,6,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Benimàmet",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Benimodo",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Bétera",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Beteró",
+      "lanes": [4,6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Burjassot",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Burjassot-Godella",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "La Cadena",
+      "lanes": [4, 6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Camapanar",
+      "lanes": [1,2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Campament",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Campus",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Cantereria",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "La Canyada",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Canyamelar",
+      "lanes": [6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Carlet",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Carolines-Fira",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "La Carrasca",
+      "lanes": [4,6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Castelló",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Ciutat Arts i Ciències-Justícia",
+      "lanes": [10],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "El Clot",
+      "lanes": [2],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Col·legi El Vedat",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Colón",
+      "lanes": [3,5,7,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "La Coma",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "La Cova",
+      "lanes": [9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Doctor Lluch",
+      "lanes": [4,6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "L'Eliana",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Entrepins",
+      "lanes": [2],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Empalme",
+      "lanes": [1,2,4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Espioca",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Estadi Ciutat de València",
+      "lanes": [6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Facultats - Manuel Broseta",
+      "lanes": [3,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Faitanar",
+      "lanes": [3,5,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Fira València",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Florista",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Foios",
+      "lanes": [3],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Fuente del Jarro",
+      "lanes": [2],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Font d'Almaguer",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Francesc Cubells",
+      "lanes": [6,8],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Garbí",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Gallipont-Torre del Virrei",
+      "lanes": [2],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Godella",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Grau La Marina",
+      "lanes": [6,8],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "La Granja",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Horta Vella",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Jesús",
+      "lanes": [1,2,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Llíria",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Lloma Llarga-Terramelar",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Machado",
+      "lanes": [3,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Manises",
+      "lanes": [3,5,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Cabanyal",
+      "lanes": [4,6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Marítim",
+      "lanes": [5,6,7,8],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Marxalenes",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Mas del Rosari",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Masia de Traver",
+      "lanes": [9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Masies",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Massalavés",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Massamagrell",
+      "lanes": [3],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Massarrojos",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Meliana",
+      "lanes": [3],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Mislata",
+      "lanes": [3,5,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Mislata-Almassil",
+      "lanes": [3,5,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Moncada - Alfara",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Montesol",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Montortal",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Moreres",
+      "lanes": [10],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Museros",
+      "lanes": [3],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Natzaret",
+      "lanes": [10],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Nou d'Octubre",
+      "lanes": [3,5,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Neptú",
+      "lanes": [8],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Oceanogràfic",
+      "lanes": [10],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Omet",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Orriols",
+      "lanes": [6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Paiporta",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Palau de Congresos",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Parc Científic",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Paterna",
+      "lanes": [2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Patraix",
+      "lanes": [1,2,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Picanya",
+      "lanes": [1,2,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Picassent",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Plaça Espanya",
+      "lanes": [1,2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Platja Les Arenes",
+      "lanes": [4,6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Platja Malva-rosa",
+      "lanes": [4,6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "La Pobla de Farnals",
+      "lanes": [3],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "La Pobla de Vallbona",
+      "lanes": [2],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Pont de Fusta",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Trinitat",
+      "lanes": [4,6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Quart de Poblet",
+      "lanes": [3,5,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Quatre Carreres",
+      "lanes": [10],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Rafelbunyol",
+      "lanes": [3],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Realón",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Reus",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Riba-roja de Túria",
+      "lanes": [9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Rocafort",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Roses",
+      "lanes": [3,5,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Russafa",
+      "lanes": [10],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Safranar",
+      "lanes": [1,2,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Sagunt",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Salt de l'Aigua",
+      "lanes": [3,5,9],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Sant Isidre",
+      "lanes": [1,2,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Sant Joan",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Sant Miquel dels Reis",
+      "lanes": [6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Sant Ramon",
+      "lanes": [1],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Santa Rita",
+      "lanes": [2],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Seminari-CEU",
+      "lanes": [1],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Tarongers - Ernest Lluch",
+      "lanes": [4,6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Tomás y Valiente",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Torrent",
+      "lanes": [1,2,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Torrent Avinguda",
+      "lanes": [2,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Tossal del Rei",
+      "lanes": [6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Trànsits",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Túria",
+      "lanes": [1,2],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Universitat Politècnica",
+      "lanes": [4,6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "València Sud",
+      "lanes": [1,2,7],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "La Vallesa",
+      "lanes": [2],
+      "images": [],
+      "halt": true
+    },
+    {
+      "name": "Vicent Andrés Estellés",
+      "lanes": [4],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Vicente Zaragozá",
+      "lanes": [4, 6],
+      "images": [],
+      "halt": false
+    },
+    {
+      "name": "Xàtiva",
+      "lanes": [3,5,9],
+      "images": [],
+      "halt": false
+    }
+  ]
+  
