@@ -8,6 +8,8 @@ const App = () => {
   const [selectedStation, setSelectedStation] = useState(''); 
   const [selectedLines, setSelectedLines] = useState([]);
   const [attempts, setAttempts] = useState(1); 
+  const [addLanes, setAddLanes] = useState(false); 
+  const [attemptList, setAttemptList] = useState([]);
   const lines = [1,2,3,4,5,6,7,8,9,10]
 
   const loadStations = () => {
@@ -24,50 +26,75 @@ const App = () => {
   };
 
   const handleLinesChange = (event) => {
-    const selectedOptions = Array.from(event.target.selectedOptions, option => option.value);
-    setSelectedLines(selectedOptions);
+    
   };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-   
+  const handleShowModal = () => {
+    console.log(addLanes)
+    setAddLanes(!addLanes)
+  }
+
+  const handleSubmit = () => {
+    setAttempts(attempts + 1)
+    setAttemptList([...attemptList, {station: selectedStation}])
   };
 
   useEffect(() => {
     loadStations();
-    selectRandomStation();
   }, []); 
+
+  useEffect(() => {
+    selectRandomStation();
+  }, [stations]); 
 
 
   return (
     <div className="App">
       <h1>Metroguessr</h1>
+      {addLanes && 
+        <div className='modal'>
+          <div className='seleccionLineas'>
+            {lines.map(el => {
+              return (<img src={`../public/images/lanes/${el}.png`}/>)
+            })}
+          </div>
+          <button onClick={() => setAddLanes(false)}></button>
+        </div>
+      }
       {randomStation && (
-        <div>
-          <img src={randomStation.image || ""} />
+        <div className='imagenEstacion'>
+          <img src={randomStation.image || "https://upload.wikimedia.org/wikipedia/commons/4/4a/Valencia_metro_2015_Empalma.jpg"} />
         </div>
       )}
       <section className='intentos'>
-        <form className='intento'>
-          <div>
-            <select value={selectedStation} onChange={handleStationChange} className='estacion'>
-              <option value=""></option>
-              {stations.map(station => (
-                <option key={station.name} value={station.name}>{station.name}</option>
-              ))}
-            </select>
+        {attemptList.map(el => {
+          return(
+            <div className='intento'>
+              <select value={el.station} disabled className='estacion'>
+                <option value={el.station}>{el.station}</option>
+              </select>
+            </div>
+          )
+        })}
+        {attempts <= 5 && <form className='intento'>
+          <select value={selectedStation} onChange={handleStationChange} className='estacion'>
+            <option value=""></option>
+            {stations.map(station => (
+              <option key={station.name} value={station.name}>{station.name}</option>
+            ))}
+          </select>
+          <div className='listaLineas'>
+            {selectedLines.map(el => { 
+              return (
+                <img src={`../public/images/lanes/${el}.png`}/>
+              )
+            })}
           </div>
-          {/* <div>
-            <select multiple value={selectedLines} onChange={handleLinesChange}>
-              {lines.map(line => (
-                <option key={line} value={line}>{line}</option>
-              ))}
-            </select>
-          </div> */}
+          <button onClick={handleShowModal} type="button" className='lineas'>➕</button>
           <button onClick={handleSubmit} type="button" className='adivinar'>🚇 ADIVINAR</button>
-        </form>
+        </form> }
         <div className='intentosRestantes'>
-          INTENTO {attempts} / 5
+          {attempts <= 5 ? `INTENTO ${attempts} / 5` : `La estación era ${randomStation.name}`}
         </div>
         <div className='proximosIntentos'>
           {Array.from({ length: 5 - attempts }, (_, index) => (
